@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Poppins:wght@400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Montserrat;
+}
+
+.nav-custom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 25vh;
+    font-weight: 500;
+
+}
+
+.nav-custom-link {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 35%;
+}
+
+.nav-custom-link a {
+    color: #555555;
+    text-decoration: none;
+}
+
+.link-dif a {
+    color: #FF6903;
+}
+
+.dropdown-toggle::after {
+    content: none;
+}
+
+.dropdown-menu .dropdown-item {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.btn-primary {
+    background: #ff9900;
+    border: 0;
+    padding: 15px 40px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.btn-primary:hover {
+    background: #a86500;
+    border: 0;
+}
+
+.btn-secondary {
+    background: none;
+    border: 1 solid #ff9900;
+    padding: 15px 40px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #173A56;
+}
+
+.btn-secondary:hover {
+    background: #173A56;
+    border: 1 solid #bcd0e5;
+
+}
+
+h5.words-welcome {
+    color: #FF6903;
+    font-size: 20;
+    font-weight: medium;
+}
+
+h1.words-one {
+    color: #000000;
+    font-size: 50;
+    font-weight: 700;
+    max-width: 500px;
+}
+
+.words-one span {
+    color: #F8A601;
+}
+
+p.words-two {
+    max-width: 470px;
+}
+
+p.words-three {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: #555555;
+    font-size: 20;
+    font-weight: 400;
+}
+
+.call-to-action {
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.social-media button {
+    background-color: transparent;
+    border: none;
+    margin-right: 10px;
+}
+
+.toast-custom-1 {
+    background-color: #F0F0F0CC;
+    border-radius: 15px;
+    max-width: 335px;
+}
+
+button.button-toast {
+    background-color: transparent;
+    border: none;
+}
+
+.toast-body-wrapper {
+    padding: 0px 0px 8px 8px;
+}
+
+.toast-body-wrapper-head {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    color: #555555;
+}
+
+.txt-position-custom {
+    padding-left: 18px;
+    font-family: Poppins;
+    font-weight: 500;
+}
+
+.toast-custom-2 {
+    background-color: #F0F0F0CC;
+    border-radius: 15px;
+    max-width: 250px;
+}
+
+@media (max-width: 991.98px) {
+    .btn-primary, .btn-secondary {
+        margin-top: 10px;
+        margin-left: 0px !important;
+    }
+
+    .social-media {
+        text-align: center;
+    }
+
+    .avatar {
+        margin-top: 10px;
+        margin-bottom: 50px;
+        width: 75%;
+    }
+}
