@@ -1,7 +1,7 @@
 # diggie
 learn slicing
 
-* vanilla HTML
+* Vanilla HTML
 * Vanilla Javascript
 * Bootstrap
 
